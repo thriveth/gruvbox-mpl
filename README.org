@@ -1,0 +1,34 @@
+#+title: A gruvbox style for Matplotlib
+
+A simple, dark-background color style for the [[http://www.matplotlib.org][Matplotlib]] plotting
+library for Python, based on Pavel Pertsevs [[https://github.com/morhetz/gruvbox][Gruvbox]] color palette and
+theme, that I have mainly made to fit in to my Emacs/org-mode theme.
+
+I may include the light-background Gruvbox variant later, but I mainly
+made this to have a good dark-background style.
+
+I made this based on this [[https://www.hfstevance.com/blog/2019/7/22/matplotlib-style][blog post]] Héloïse Stevance ([[https://twitter.com/sydonahi][@sydonahi]] on
+Twitter), and adding a bit of extra spice.
+
+* Screenshot
+This is what a simple multi line plot looks like. The data used are
+filter throughput curves for the UVIS and IR channels at the Hubble
+Space Telescope.
+
+#+attr_org: :width 700px
+#+caption: Plot of Hubble Space Telescope filter throughputs for illustration.
+[[file:screenshots/HSTFilterPlot.png]]
+
+* Installation
+To try it out, place the file ~gruvbox.mplstyle~ in the folder you are
+working in, and insert the lines:
+
+#+begin_src ipython :session :results silent
+  import matplotlib.pyplot as plt
+  plt.use.style('gruvbox.mplstyle')
+#+end_src
+
+to your script or notebook.
+
+To make it available from anywhere, follow the instructions in the
+blog post linked above.
