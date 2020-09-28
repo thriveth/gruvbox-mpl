@@ -33,3 +33,15 @@ to your script or notebook.
 
 To make it available from anywhere, follow the instructions in the
 blog post linked above.
+
+* Misc.
+- The theme sets a background color for the figure canvas and one for
+  the Axes. If you want the figure canvas to be transparent, set:
+  
+ #+begin_src python
+   import matplotlib.pyplot as plt
+   plt.rcParams['figure.facecolor'] = 'none'
+ #+end_src
+ 
+  somewhere in your working code, or comment out the corresponding
+  line in the ~.mplstyle~ file to het rid of it for good.
