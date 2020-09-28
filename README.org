@@ -23,9 +23,9 @@ Space Telescope.
 To try it out, place the file ~gruvbox.mplstyle~ in the folder you are
 working in, and insert the lines:
 
-#+begin_src ipython :session :results silent
+#+begin_src python :results silent
   import matplotlib.pyplot as plt
-  plt.use.style('gruvbox.mplstyle')
+  plt.style.use('gruvbox.mplstyle')
 #+end_src
 
 to your script or notebook.
