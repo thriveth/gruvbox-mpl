@@ -16,6 +16,7 @@ filter throughput curves for the UVIS and IR channels at the Hubble
 Space Telescope.
 
 #+attr_org: :width 700px
+#+attr_html: :width 900px
 #+caption: Plot of Hubble Space Telescope filter throughputs for illustration.
 [[file:screenshots/HSTFilterPlot.png]]
 
