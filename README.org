@@ -10,7 +10,7 @@ made this to have a good dark-background style.
 I made this based on this [[https://www.hfstevance.com/blog/2019/7/22/matplotlib-style][blog post]] Héloïse Stevance ([[https://twitter.com/sydonahi][@sydonahi]] on
 Twitter), and adding a bit of extra spice.
 
-* Screenshot
+* Screenshots
 This is what a simple multi line plot looks like. The data used are
 filter throughput curves for the UVIS and IR channels at the Hubble
 Space Telescope.
@@ -19,6 +19,16 @@ Space Telescope.
 #+attr_html: :width 900px
 #+caption: Plot of Hubble Space Telescope filter throughputs for illustration.
 [[file:screenshots/HSTFilterPlot.png]]
+
+a screenshot of an org-mode session, playing with galaxy SED fitting
+with [[https://github.com/ACCarnall/bagpipes][Bagpipes]]:
+
+#+attr_org: :width 700px
+#+attr_html: :width 900px
+#+caption: Emacs with the Gruvbox theme, running data analysis with org-babel and
+#+caption: the gruvbox-mpl plotting style enabled.
+[[file:screenshots/org-mode-session.png]]
+
 
 * Installation
 To try it out, place the file ~gruvbox.mplstyle~ in the folder you are
@@ -44,4 +54,4 @@ blog post linked above.
  #+end_src
  
   somewhere in your working code, or comment out the corresponding
-  line in the ~.mplstyle~ file to het rid of it for good.
+  line in the ~.mplstyle~ file to get rid of it for good.
